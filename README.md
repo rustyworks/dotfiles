@@ -1,5 +1,8 @@
-What todo next:
+First todo:
+1. copy .ssh key
+2. copy .pypirc key
 
+What todo next:
 1. Disable Guest
 2. Change mouse behavior when needed (natural scrolling)
 3. Change touchpad (add three finger moves from accessbility)

@@ -3,7 +3,7 @@
 brew update
 brew list
 # brew install ansible
-brew install ffmpeg graphicsmagick htop imagemagick neovim phantomjs postgresql pyenv rbenv redis ruby-build sqlite the_silver_searcher tree unrar wget youtube-dl
+brew install ffmpeg graphicsmagick htop imagemagick neovim phantomjs postgresql pyenv rbenv redis ruby-build sqlite the_silver_searcher tree unrar wget youtube-dl ctags
 brew install heroku/brew/heroku
 brew services start postgresql
 brew cask list

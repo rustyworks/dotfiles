@@ -2,11 +2,8 @@
 # ~/.bashrc
 #
 
-export EDITOR=vim
-
 bind '"\e[A": history-search-backward'
 bind '"\eOA": history-previous-history'
-export HISTCONTROL=ignoreboth
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -15,6 +12,13 @@ export HISTCONTROL=ignoreboth
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERM=xterm-256color
+
+export EDITOR=vim
+export HISTCONTROL=ignoreboth
 
 export FLASK_DEBUG=1
 export FLASK_ENV=development

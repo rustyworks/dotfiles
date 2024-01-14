@@ -1,7 +1,5 @@
-DONE:
-1. .bashrc inside arch
+Just bunch of dotfiles
 
-TODO:
-1. Sync with windows
-2. Listing all dotfiles
-3. Update todo
+WIP
+1. .tmate.conf apikey and session name
+2. .ssh

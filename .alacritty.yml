@@ -1,14 +1,10 @@
-#import:
-#  - /path/to/dracula.yml
-shell:
-  program: Arch
+# this is for windows only
+# shell:
+#   program: Arch
+
 font:
   normal:
-    #family: "Source Code Pro"
-    #family: "SauceCodePro Nerd Font Mono"
-    #family: "FiraCode NF Retina"
     family: "Spleen 32x64"
-    #family: MesloLGS NF
   italic:
     style: normal
   size: 12
@@ -80,3 +76,4 @@ colors:
     - { index: 19, color: '0x606060' }
     - { index: 20, color: '0x808080' }
     - { index: 21, color: '0xc0c0c0' }
+
